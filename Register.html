@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styleslogin.css">
-    
     <title>Login</title>
 </head>
 <body>
     
     <div class="login-container">
-        <h1>Login</h1>
+        <h1>Registrar</h1>
         <form>
             <script src="test.js"></script>
             <label for="username">Usuário:</label>
             <input type="text" id="username" name="username" required>
             
+            <label for="password">Email:</label>
+            <input type="text" id="email" name="email" required>
+            
+            <label for="password">Confirmar Email:</label>
+            <input type="text" id="cemail" name="cemail" required>
+
             <label for="password">Senha:</label>
             <input type="password" id="password" name="password" required>
-            <a href="#">Esqueci a senha</a>
-            <a type="submit" class="botao">entrar</a>
+           <div>
+            <input type="checkbox" id="autorizo"> 
+            <h5> Eu aceito os termos de uso.</h5>
+            </div> 
+            
+            <a type="submit" class="botao" href="perfil.html">cadastrar</a>
             <div><br></div>
-            <a type="submit" href="home.html" class="botao">voltar</a>
-            <div>
-                <br>
-            </div>
-            <div>
-                não possuei uma conta? 
-                <a href="Register.html">Cadastre-se</a>
-            </div>
+            <a type="submit" href="login.html" class="botao">voltar</a>
+            
             
             
         </form>
