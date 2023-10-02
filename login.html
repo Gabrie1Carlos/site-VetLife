@@ -12,14 +12,14 @@
     <div class="login-container">
         <h1>Login</h1>
         <form>
-            <script src="test.js"></script>
+            
             <label for="username">Usuário:</label>
             <input type="text" id="username" name="username" required>
             
             <label for="password">Senha:</label>
             <input type="password" id="password" name="password" required>
             <a href="#">Esqueci a senha</a>
-            <a type="submit" class="botao">entrar</a>
+            <a type="submit" class="botao" onclick="pet()">entrar</a>
             <div><br></div>
             <a type="submit" href="home.html" class="botao">voltar</a>
             <div>
@@ -34,4 +34,27 @@
         </form>
     </div>
 </body>
+
+<script src="js/index.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth-compat.js"></script>
+<script>
+    const firebaseConfig = {
+
+        apiKey: "AIzaSyDaSq66NUJLThvwfimOTuSMzh0D4__GgPw",
+
+        authDomain: "vetlife-5e872.firebaseapp.com",  
+
+        projectId: "vetlife-5e872",
+
+        storageBucket: "vetlife-5e872.appspot.com",
+
+        messagingSenderId: "239850821997",
+
+        appId: "1:239850821997:web:97eb15c3529860366b2264"
+
+    };
+    firebase.initializeApp(firebaseConfig);
+    
+</script>
 </html>

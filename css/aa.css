@@ -1,0 +1,58 @@
+/* Estilo do contêiner do formulário */
+.form-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  /* Estilo dos campos de entrada de texto */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo do botão de envio */
+  .form-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para mensagens de erro */
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Estilo para mensagens de sucesso */
+  .success-message {
+    color: #00a000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
