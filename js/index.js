@@ -4,13 +4,13 @@ function login(){
 function voltar(){
     window.location.href= "home.html"
 }
-function pet(){
+function entro(){
     firebase.auth().signInWithEmailAndPassword(
         form.email().value, form.password().value
     ).then(response =>{
+        
+        window.location.href = "pet.html"
 
-        console.log('success', response)
-        window.location.href = "pet.html";
     }).catch(error => {
         console.log('error', error)
     
